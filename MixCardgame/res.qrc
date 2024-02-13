@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/noa.png</file>
+        <file>img/Elysia.png</file>
+        <file>img/Amane.png</file>
+        <file>img/Arte.png</file>
+        <file>img/Kotose.png</file>
+        <file>img/Kurumi.png</file>
+        <file>img/PhiliaGrey.png</file>
+        <file>img/attack.png</file>
+        <file>img/ServentHP_small.png</file>
+        <file>img/me.png</file>
+        <file>img/box.png</file>
+        <file>img/futiya.png</file>
+        <file>img/lifu.png</file>
+        <file>img/masterHP.png</file>
+        <file>img/bk1.png</file>
+        <file>img/bk2.png</file>
+        <file>img/bk3.png</file>
+        <file>img/bk4.png</file>
+        <file>img/bk5.png</file>
+        <file>img/item1.jpg</file>
+        <file>img/item2.jpg</file>
+        <file>img/item3.jpg</file>
+        <file>img/item4.jpg</file>
+        <file>img/sikari.ico</file>
+        <file>img/NishikiAsumi.png</file>
+        <file>img/Shio.png</file>
+        <file>img/Tsubaki.png</file>
+        <file>img/Yae.png</file>
+    </qresource>
+</RCC>
