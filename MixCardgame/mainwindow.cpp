@@ -10,6 +10,10 @@ MainWindow::MainWindow(QWidget *parent)
     this->setWindowTitle("何不来一把紧张刺激的××牌呢? 是的，我就叫××牌");
     this->setWindowIcon(QIcon(":/img/sikari.ico"));
 
+    // 固定大小、禁止缩放
+    this->setFixedSize(1250, 800);
+    this->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
+
     // 初始化背景及样式表
     Init();
 
@@ -93,10 +97,11 @@ void MainWindow::Init()
 
 void MainWindow::GameStart()
 {
-    // 隐藏原本的三个控件
+    // 隐藏原本的四个控件
     ui->lineEdit->setVisible(false);
     ui->btn_cnt->setVisible(false);
     ui->btn_noend->setVisible(false);
+    ui->lab_info->setVisible(false);
 
     // 显示三个状态控件
     ui->dial->setVisible(true);
