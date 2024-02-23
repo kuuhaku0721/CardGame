@@ -4,7 +4,6 @@ Status::Status()
 {
     this->m_attack = 0;
     this->m_health = 0;
-
 }
 
 Status::Status(QString desc, int atk, int hp, Effect eff)

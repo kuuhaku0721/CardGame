@@ -45,7 +45,7 @@ protected:
 private:
     Ui::ItemCard *ui;
 
-    int m_id;                   // TODO：还得抽象一层，因为所有的牌都由这几项功能，得抽象出来一个牌的父类
+    int m_id;
     bool m_isSelected;
     QString m_stylesheet;
 

@@ -9,7 +9,6 @@ GenerateTool::GenerateTool()
 
 GenerateTool::~GenerateTool() {}
 
-// TODO:三个功能一摸一样的函数，也可以优化
 QList<Status> GenerateTool::getStatus()
 {
     QList<Status> result;
@@ -71,6 +70,7 @@ QList<Master> GenerateTool::getMaster()
 }
 
 // 如果想要添加新的牌，请在此添加
+// TODO：如果后续数量多的话，可以换成本地json格式文件存储的形式，启动时从文件中读取出来
 void GenerateTool::GeneratrStatus()
 {
     // 基础牌 参数说明：描述文字、攻击值、生命值

@@ -7,7 +7,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    this->setWindowTitle("何不来一把紧张刺激的××牌呢? 是的，我就叫××牌");
+    this->setWindowTitle("修改项目结构分支，能运行就是修改成功了");
     this->setWindowIcon(QIcon(":/img/sikari.ico"));
 
     // 固定大小、禁止缩放
@@ -44,6 +44,17 @@ MainWindow::MainWindow(QWidget *parent)
     connect(this, &MainWindow::AddInfo, this, &MainWindow::ImplementAddInfo);
     connect(this, &MainWindow::ImplUpdateCard, this, &MainWindow::ImplementUpdateItemCard);
 
+
+    /// 测试代码 ///
+
+    // TODO:加一个ScrollArea，程序启动，给个按钮，选择自选角色启动，然后显示这个ScrollArea，里面以水平方式
+    //      将所有的卡牌的图片显示出来，并且需要支持左右滑动选择
+    //      选择卡牌仍然要有选中特效，也就是说，这几个卡牌还是要生成出来
+    //      一共需要选择三个，选不够三个不准点下一步
+    //      需要有个信号，选完把选中的...id或者名字传出去，交给槽函数或者生成函数
+    //      然后继续生成过程
+
+    /// 测试代码 ///
 }
 
 void MainWindow::Init()
